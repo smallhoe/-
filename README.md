@@ -42,15 +42,14 @@
 克隆本项目到本地，并安装所需的 Python 库：
 
 安装依赖
+```bash
 pip install streamlit ...
 ```
 
-> **注意：** 主要依赖包括 `streamlit`, `netmiko`, `requests`, `pandas` (Streamlit版) 和 `gradio` (Gradio版)。
+**注意：** 主要依赖包括 `streamlit`, `netmiko`, `requests`, `pandas` (Streamlit版) 和 `gradio` (Gradio版)。
 
------
 
 ## 💻 使用方法
-
 
 ```bash
 streamlit run app.py
