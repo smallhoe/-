@@ -56,8 +56,13 @@ streamlit run app.py
 ```
 
 1.  **⚙️ 设备管理：** 首先在“设备管理”页添加您的华为设备 IP、用户名和密码。
+   <img width="2796" height="1196" alt="image" src="https://github.com/user-attachments/assets/81e82b0b-9541-4911-ac38-f9c62d09567f" />
+
 2.  **💻 智能巡检：** 切换到“智能巡检”，选择本地 Ollama 模型，点击 **`🚀 启动全网智能巡检`**。
+<img width="2780" height="1336" alt="image" src="https://github.com/user-attachments/assets/30a32316-28a5-4630-9643-d90036d7a912" />
+
 3.  **结果查看：** 程序将先多线程采集日志，然后调用 AI 模型进行批处理分析，最终结果和原始日志可在 **`💾 历史档案`** 中查看和下载。
+<img width="2788" height="1512" alt="image" src="https://github.com/user-attachments/assets/a306ab23-ffb6-4ccb-a358-e1493f89265f" />
 
 
 
