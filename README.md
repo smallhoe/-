@@ -32,11 +32,7 @@
     在终端中运行以下命令，拉取一个具备良好中文理解和代码分析能力的大模型（例如 Qwen 或 Deepseek）：
 
     ```bash
-    ollama run qwen2:7b
-    # 或
-    ollama run deepseek-coder:6.7b
-    # 或
-    ollama run llama3.1:8b
+    ollama run deepseek-r1:14b
     ```
 
     确保 Ollama 服务 (`http://localhost:11434`) 在后台运行。
@@ -46,20 +42,15 @@
 克隆本项目到本地，并安装所需的 Python 库：
 
 安装依赖
-pip install -r requirements.txt
+pip install streamlit ...
 ```
 
-> **注意：** 您需要根据您的项目使用的库创建 `requirements.txt`。主要依赖包括 `streamlit`, `netmiko`, `requests`, `pandas` (Streamlit版) 和 `gradio` (Gradio版)。
+> **注意：** 主要依赖包括 `streamlit`, `netmiko`, `requests`, `pandas` (Streamlit版) 和 `gradio` (Gradio版)。
 
 -----
 
 ## 💻 使用方法
 
-本项目提供了两种运行模式的脚本，您可以选择其一运行。
-
-### 选项 A：Streamlit Web 应用 (推荐：带历史记录和数据库)
-
-使用 `app.py` 运行，系统将提供一个完整的 Web 界面，包含设备管理、历史记录存档等功能。
 
 ```bash
 streamlit run app.py
@@ -71,4 +62,4 @@ streamlit run app.py
 
 
 
-请您将这份草稿中的 `YourUsername/YourRepoName` 替换为您实际的 GitHub 用户名和仓库名，并根据您的实际需求创建 `requirements.txt` 文件。
+本系统由AI生成
